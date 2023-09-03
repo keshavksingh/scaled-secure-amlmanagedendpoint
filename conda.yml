@@ -1,0 +1,15 @@
+channels:
+- conda-forge
+dependencies:
+- python=3.9.5
+- pip<=21.2.4
+- pip:
+  - mlflow==2.4
+  - cloudpickle==2.2.1
+  - importlib-metadata==6.7.0
+  - numpy==1.21.5
+  - psutil==5.8.0
+  - scikit-learn==1.0.2
+  - scipy==1.7.3
+  - azureml-inference-server-http
+name: mlflow-env
